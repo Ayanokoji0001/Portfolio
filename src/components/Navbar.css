@@ -4,16 +4,17 @@ body{
   margin: 0%;
 }
 .navbar {
-  /* Full width container, centered content */
   width: 100vw;
-  margin-top: 6rem; /* Center the constrained content */
-  padding: 40px 10vw; /* Use 10vw padding to align with .hero content */
+  padding: 20px 10vw;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-between;  /* more normal than evenly */
   align-items: center;
   position: relative;
   z-index: 100;
+  margin-top: 0; /* STOP pushing the whole site down */
+  box-sizing: border-box;
 }
+
 
 /* --- LOGO Styling --- */
 .nav-logo a {
