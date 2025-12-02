@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "homepage": "https://ayanokoji0001.github.io/Portfolio",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
