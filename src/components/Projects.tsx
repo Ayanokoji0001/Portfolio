@@ -6,7 +6,7 @@ import "../styles/Projects.css";
 
 export default function Projects() {
   const [repos, setRepos] = useState<any[]>([]);
-  const username = "Ayanokoji0001";
+  const username = "Jenish0001";
 
   useEffect(() => {
     getRepos(username)

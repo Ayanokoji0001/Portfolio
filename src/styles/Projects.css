@@ -74,6 +74,7 @@
 
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -99,5 +100,6 @@
 
     .project-card p {
         -webkit-line-clamp: 4;
+        line-clamp: 4;
     }
 }
